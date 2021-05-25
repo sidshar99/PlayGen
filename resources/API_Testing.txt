@@ -1,0 +1,12 @@
+curl -i -H "Content-Type: application/json" -X POST -d "{\"album\":\"Dark Lane Demo Tapes\", \"id\":\"3IvMYBE7A3c7to1aEcfFJk\", \"name\":\"Deep Pockets\", \"uri\":\"spotify:track:3IvMYBE7A3c7to1aEcfFJk\", \"acousticness\":0.482, \"danceability\":0.473, \"energy\":0.824, \"instrumentalness\":0, \"liveness\":0.605, \"loudness\":-3.68, \"speechiness\":0.163, \"tempo\":77.888, \"valence\":0.374, \"popularity\":60, \"artist\":\"Drake\"}" 127.0.0.1:5000/api/Songs
+
+curl -i -H "Content-Type: application/json" -X DELETE -d "{\"album\":\"Dark Lane Demo Tapes\", \"id\":\"3IvMYBE7A3c7to1aEcfFJk\", \"name\":\"Deep Pockets\", \"uri\":\"spotify:track:3IvMYBE7A3c7to1aEcfFJk\", \"acousticness\":0.482, \"danceability\":0.473, \"energy\":0.824, \"instrumentalness\":0, \"liveness\":0.605, \"loudness\":-3.68, \"speechiness\":0.163, \"tempo\":77.888, \"valence\":0.374, \"popularity\":60, \"artist\":\"Drake\"}" 127.0.0.1:5000/api/Songs
+
+curl -i -H "Content-Type: application/json" -X POST -d "{\"email\":\"ss739\", \"password\":\"bruv\"}" 127.0.0.1:5000/api/Register
+
+curl -i -H "Content-Type: application/json" -X GET -d "{\"email\":\"ss739\", \"password\":\"bruv\"}" 127.0.0.1:5000/api/Login
+
+curl -i -H "Content-Type: application/json" -X GET -d "{}" 127.0.0.1:5000/api/Logout
+
+https://playlist-gene.herokuapp.com/
+curl -i -H "Content-Type: application/json" -X GET -d "{\"email\":\"ss739\", \"password\":\"bruv\"}" playlist-gene.herokuapp.com/api/Login

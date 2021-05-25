@@ -1,0 +1,18 @@
+Input Parameters: 
+
+- list(name, album_name, artist)
+
+- maxium number of songs per playlist
+
+Output Parameters: 
+- Number of playlist generated
+- Playlists -> 
+		- 3D
+		- Number of Playlists
+		- maxium number of songs
+		- [name, album_name, artist]
+
+# 20, 
+# 6: playlist
+# 1: 
+# 10: 0.35s

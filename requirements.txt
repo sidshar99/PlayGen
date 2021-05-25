@@ -1,0 +1,15 @@
+pandas
+Flask_Script
+Flask_SQLAlchemy
+Flask_RESTful
+marshmallow
+Flask_Migrate
+SQLAlchemy
+flask_marshmallow
+Flask
+alembic
+gunicorn
+marshmallow-sqlalchemy
+IPython
+pandas_profiling
+sklearn

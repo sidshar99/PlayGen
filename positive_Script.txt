@@ -1,0 +1,10 @@
+better than RS: 
+- RS requires a lot of data, there must be feed back from a group of users. 
+	- Requires a lot of interaction form user and their friends too.
+	- PPl dont usually rate music. 
+	- By chance you put ratings via #listens, songs are randomly shuffled which means there is a great source of Bias in the dataset.
+	- Cold start problem.
+- Youtube/amazon/netflix have mastered this feild beyond imageination via propitary algos. No more improvement could be done in span of this course.
+
+Why did we create this app: 
+- 
