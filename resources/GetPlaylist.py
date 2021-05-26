@@ -3,8 +3,6 @@ from flask_restful import Resource
 
 import pandas as pd
 import numpy as np
-from IPython.display import display
-from pandas_profiling import ProfileReport
 
 import pickle
 

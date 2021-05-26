@@ -10,6 +10,4 @@ Flask
 alembic
 gunicorn
 marshmallow-sqlalchemy
-IPython
-pandas_profiling
 sklearn
